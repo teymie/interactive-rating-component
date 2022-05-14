@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+body{
+    background-color: hsl(216, 12%, 8%);
+    
+    color: white;
+   
+}
+ div.container{
+    display: flex;
+    justify-content: center;
+     font-family: 'Overpass', sans-serif;
+    
+}
+div.container2{
+    display: flex;
+    justify-content: center;
+     font-family: 'Overpass', sans-serif;
+     display: none;
+    
+}
+div.page{
+    width: 30rem;
+    background-color: hsl(213, 19%, 18%);
+    height: 60%;
+    width: 22rem;
+    padding: 2rem;
+    margin-top: 10rem;
+    border-radius: 15px;
+}
+ 
+ 
+ main h1{
+    color: white;
+}
+ main p{
+    color: hsl(217, 12%, 63%);
+    width: 23rem;
+}
+#pic1{
+    background-color:  hsl(213, 15%, 24%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    padding: 1rem;
+    border: solid 1px hsl(213, 15%, 24%);
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+}
+.btns:hover{
+    background-color:  hsl(217, 12%, 63%);
+}
+.btns:active{
+    background-color: hsl(25, 97%, 53%);
+}
+.btns{
+    background-color:  hsl(213, 15%, 24%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    border: solid 1px hsl(213, 15%, 24%);
+}
+.submit{
+    width: 22rem;
+    background-color: hsl(25, 97%, 53%) ;
+    border-radius: 15rem;
+    margin-top: 2rem;
+    border: none;
+}
+#submit{
+    color: white;
+}
+.mystyle{
+    background-color: hsl(25, 97%, 53%);
+}
+.thanks-page{
+    text-align: center;
+}
+.selection{
+    background-color:  hsl(213, 15%, 24%);
+    color: hsl(25, 97%, 53%);
+   padding: 0.2rem;
+    width: 12rem;
+   margin: 0 auto;
+   border-radius: 15rem;
+}
+@media only screen and (max-width: 420px ){
+    div.page{
+width: 75vw;
+    }
+    main p{
+        width: 78vw;
+        font-weight: 200px;
+    }
+    .submit{
+        width: 74vw;
+    }
+    .btn{
+        width: 17rem;
+    }
+}
+@media only screen and (max-width: 280px ){
+    .btn{
+        width: 13.5rem;
+    }
+}
