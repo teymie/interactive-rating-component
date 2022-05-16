@@ -51,7 +51,7 @@ div.page{
     width: 18rem;
 }
 .btns:hover{
-    background-color:  hsl(217, 12%, 63%);
+    background-color: hsl(25, 97%, 53%);
 }
 .btns:active{
     background-color: hsl(25, 97%, 53%);
@@ -63,6 +63,10 @@ div.page{
     border-radius: 50%;
     color: hsl(217, 12%, 63%);
     border: solid 1px hsl(213, 15%, 24%);
+}
+.active{
+    background-color:  hsl(217, 12%, 63%);
+    color: white;
 }
 .submit{
     width: 22rem;

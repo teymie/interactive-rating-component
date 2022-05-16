@@ -6,8 +6,9 @@ const number = document.getElementById('number')
 
 btn.forEach(function(btns) {
     btns.addEventListener('click' , function (event) {
+      btns.classList.toggle('active')
       let selectedBtn = event.currentTarget
-      selectedBtn.style.backgroundColor = "hsl(25, 97%, 53%)"
+     
       number.innerText = selectedBtn.innerText
      subMit.addEventListener("click" , function () {
         container.style.display ="none" 
@@ -17,4 +18,3 @@ btn.forEach(function(btns) {
       }
     )
 });
-// btns.style.backgroundColor = "orange"
